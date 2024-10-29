@@ -6,4 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Running the python selenium script to check gas price..."
+      - run: ls
+      - run: pwd
       - run: python price_check.py
