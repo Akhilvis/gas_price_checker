@@ -11,6 +11,7 @@ jobs:
         with:
           python-version: '3.13' 
       - name: Install dependencies
-        run: sudo pip3 install selenium
+        run: pip3 install selenium
+      - run: pip3 freeze
       - run: echo "Running the python selenium script to check gas price..."
       - run: python price_checker.py
