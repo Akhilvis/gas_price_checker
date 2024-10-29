@@ -8,4 +8,4 @@ jobs:
       - run: echo "Running the python selenium script to check gas price..."
       - run: ls
       - run: pwd
-      - run: python price_check.py
+      - run: python price_checker.py
