@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 
 gas_price_cutff = 140
 
-driver = webdriver.Edge()
+driver = webdriver.Chrome()
 driver.get("https://www.gasbuddy.com/station/21424")
 time.sleep(10)
 gas_regular_ele = driver.find_element(
