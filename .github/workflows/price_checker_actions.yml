@@ -1,0 +1,9 @@
+name: Price Checker
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running the python selenium script to check gas price..."
+      - run: python price_check.py
